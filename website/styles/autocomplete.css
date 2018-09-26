@@ -1,0 +1,26 @@
+.autocomplete {
+    max-height: 250px;
+    overflow: auto;
+    margin-top: 0px;
+    position: absolute;
+    width: 220px;
+}
+
+.autocomplete li {
+    height: 1.3em;
+    font: 1em Segoe UI;
+    padding: 4px;
+    list-style: none;
+}
+
+.autocomplete:hover {
+    cursor: pointer;
+}
+
+.autocomplete ul > img {
+    height: 29px;
+}
+
+.slimFromPic {
+    width: 189px;
+}

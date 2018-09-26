@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .container {
+    height: 100%;
+}
+
+.main {
+    padding: 0 10px 0 10px;
+    max-width: 850px;
+    min-width: 500px;
+    margin: 10px auto 0 auto;
+}
+
+.header {
+    height: 50px;
+    min-width: 500px;
+}
+
+.headerText > a {
+    text-decoration: none;
+}
+
+.logoImg {
+    margin: 5px 5px;
+    height: 40px;
+}
+
+.headerText {
+    font: 18px Garamond;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    line-height: 50px;
+}
+
+.headerText:hover {
+    cursor: pointer;
+}
+
+#themeButton {
+    margin-right: 10px;
+}
+
+input, textarea {
+    font: 1em Segoe UI;
+    width: 250px;
+    padding: 3px;
+    box-sizing: border-box;
+    height: 31px;
+    line-height: 31px;
+}
+
+.bigText {
+    font: 2.5em Segoe UI Semibold;
+    text-align: center;
+    padding: 10px;
+}
+
+#actionButtons {
+    padding: 5px;    
+}
+
+#actionButtons > input {
+    margin: 4px;
+}
+
+input[type=button] {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px #4c4c4c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+}
+
+#championList {
+    margin: 0 auto 5px auto;
+    width: 220px;
+    text-align: center;
+}
+
+.center img {
+    height: 31px;
+}
+
+.champion_input {
+    width: 100%;
+    margin-top: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#recommendations {
+    margin-bottom: 3px;
+}
+
+#recommendations img {
+    height: 48px;
+}
+
+.tableCenter {
+    width: auto;
+    margin: 8px auto;
+}
+
+.tableCenter td {
+    padding: 0 5px;
+}
+
+#recommendations p {
+    font: 20px Garamond;
+}
+
+#map {
+    height: 600px;  /* The height is 400 pixels */
+    width: 100%;
+}

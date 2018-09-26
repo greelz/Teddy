@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Find Your Park</title>
+        <link rel="stylesheet" id="themeStylesheet" type="text/css" href="styles/lightTheme.css" />
+        <link rel="stylesheet" type="text/css" href="styles/alignment.css" />
+        <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <!-- Put the navigation stuff here -->
+                <div class="headerText"><a href="#">&nbsp; Findyourpark.org</a></div>
+            </div>
+            <p id="totalGames" class="right themed"></p>
+            <br />
+            <div class="main">
+                <div class="center bigText">
+                    Explore.
+                </div>                
+                <div id="map"></div>
+            </div>
+        </div>
+        <script src="js/cookie.js"></script>
+        <script src="js/generic.js"></script>
+        <script src="data/parknames.js"></script>
+        <script src="js/park.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWa5-Xit2Qz5ifA--utb-L1mEX1fD1DXI&callback=initMap">
+</script>
+    </body>
+</html>

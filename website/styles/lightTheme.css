@@ -1,0 +1,69 @@
+body {
+    background: url("../images/background.png") no-repeat center center fixed;
+    background-repeat: repeat space;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    background-color: black;
+    opacity: .8;
+}
+
+.headerText {
+    color: white;
+}
+
+.headerText:hover {
+    color: #fdffba;
+}
+
+.headerText > a {
+    color: white;
+}
+
+.headerText > a:hover {
+    color: #fdffba;
+    text-decoration: none;
+}
+
+input, textarea {
+    border: 1px solid #999;
+}
+
+#actionButtons > input[type=button] {
+    background-color: green;
+}
+
+#actionButtons > input[type=button]:hover {
+    background-color: #009900;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+input[type=button]:hover {
+    background-color: #d1d1d1;
+}
+
+.autocomplete {
+    background-color: #efefef;
+    box-shadow: 0px 5px 15px grey;
+}
+
+.autocomplete li {
+    color: black;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.autocomplete:hover {
+    cursor: pointer;
+}
+
+.highlighted_search {
+    background-color: #d7d7d7;
+}
+
